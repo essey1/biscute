@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+        <!-- GOOGLE FONT POPPIN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        
+
+        
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+
+        
+
+
+        <title>Biscute</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> Biscute
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Blogs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+
+            <!--==================== BLOGS ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h1 class="section__title1">Blogs</h1><br>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== BLOG 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img
+                                src="assets/img/portfolio1.jpg"
+                                alt="Portfolio"
+                                class="portfolio__img"
+                            />
+
+                            <div class="portfolio__data">
+                                <br><h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with ui components and
+                                    animated interactions.
+                                </p>
+
+                                <a
+                                    href="#portfolio"
+                                    class="
+                                        button button--flex button--small
+                                        portfolio__button
+                                        button--link
+                                    "
+                                >
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== BLOG 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img
+                                src="assets/img/portfolio2.jpg"
+                                alt="Portfolio"
+                                class="portfolio__img"
+                            />
+
+                            <div class="portfolio__data">
+                                <br><h3 class="portfolio__title">Branding</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with ui components and
+                                    animated interactions.
+                                </p>
+
+                                <a
+                                    href="#portfolio"
+                                    class="
+                                        button button--flex button--small
+                                        portfolio__button
+                                        button--link
+                                    "
+                                >
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== BLOG 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img
+                                src="assets/img/portfolio3.jpg"
+                                alt="Portfolio"
+                                class="portfolio__img"
+                            />
+
+                            <div class="portfolio__data">
+                                <br><h3 class="portfolio__title">Online shop</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with ui components and
+                                    animated interactions.
+                                </p>
+
+                                <a
+                                    href="#portfolio"
+                                    class="
+                                        button button--flex button--small
+                                        portfolio__button
+                                        button--link
+                                    "
+                                >
+                                    View More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-arrow-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-arrow-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <br><br>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +251 940 444 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    user@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://formsubmit.co/your@email.com" method="POST" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Biscute
+                    </a>
+
+                    
+                    
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Addis Ababa</li>
+                        <li class="footer__information">Gulele - Woreda 7</li>
+                        <li class="footer__information">House No. 585/1</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+251 940 444 777</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3940.011634978334!2d38.7297831!3d9.0627024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b89ef70d91feb%3A0x843bf56fad5a51a8!2zQWRkaXN1IEdlYmV5YSBTcXVhcmUgfCDhiqDhi7LhiLEg4YyI4Ymg4YurIOGKoOGLsOGJo-GJo-GLrQ!5e0!3m2!1sen!2sus!4v1685561353906!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+               
+            </div>
+
+            <br>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+
+
+         <!--==================== SCROLL TOP ====================-->
+         <a href="#" class="scrollUp" id="scrollUp">
+            <i class="uil uil-arrow-up scrollUp__icon"></i>
+        </a>
+        <!--==================== SWIPER JS ====================-->
+        <script src="js/swiper-bundle.min.js"></script>
+        <!--==================== SCROLL REVEAL JS ====================-->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
