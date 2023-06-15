@@ -15,12 +15,12 @@
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
-  --body-color: #e2bd43;
-  --home-color: #fdf14cbd;
+  --body-color: #f1cf5e;
+  --home-color: #fff676;
   --product-color: #e9e3ff;
-  --qualities-color: #fdf14cbd;
+  --qualities-color: #fff676;
   --event-color: #e9e3ff;
-  --contact-color: #fdf14cbd;
+  --contact-color: #fff676;
   --background-image: #e9e3ff;
   --white-color: #FFF;
   --container-color: #fff6a8;
