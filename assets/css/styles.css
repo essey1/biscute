@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 250;
+  --hue: 245;
   --first-color: hsl(var(--hue), 62%, 50%);
   --first-color-alt: hsl(var(--hue), 62%, 18%);
   --first-color-light: hsl(var(--hue), 62%, 56%);
@@ -15,7 +15,7 @@
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
-  --body-color: #f1cf5e;
+  --body-color: #f3ca44;
   --home-color: #fff676;
   --product-color: #e9e3ff;
   --qualities-color: #fff676;
@@ -23,7 +23,7 @@
   --contact-color: #fff676;
   --background-image: #e9e3ff;
   --white-color: #FFF;
-  --container-color: #fff6a8;
+  --container-color: #fff598;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -165,10 +165,13 @@ body.dark-theme{
   --first-color-dark: hsl(var(--hue), 8%, 20%);
   --title-color: hsl(var(--hue), 4%, 95%);
   --text-color: hsl(var(--hue), 4%, 75%);
-  --body-color: hsl(246, 43%, 38%);
-  --home-color: linear-gradient(to bottom right, #10022b, #330aeb);
-  --background-image: linear-gradient(to bottom right, #10022b, #330aeb);
-  
+  --body-color: hsl(246, 100%, 12%);
+  --home-color: #130031;
+  --product-color: #221200;
+  --qualities-color: #130031;
+  --event-color: #221200;
+  --contact-color: #130031;
+  --background-image: #221200;
   --container-color: hsl(var(--hue), 8%, 16%);
 }
 
