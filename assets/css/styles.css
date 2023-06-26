@@ -341,7 +341,6 @@ input {
 .home__img{
   width: 400px;
   justify-self: center;
-  box-shadow: var(--bs);
 }
 
 .home__title{
