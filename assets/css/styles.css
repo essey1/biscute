@@ -580,7 +580,7 @@ input {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1000px;
   margin: 0 auto;
-  margin-right: .75em;
+  padding-right: .75em;
 }
 
 .portfolio__items {
