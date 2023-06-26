@@ -531,6 +531,7 @@ input {
   margin-bottom: var(--mb-0-75);
   transition: .3s;
   box-shadow: var(--bs);
+  margin-right: .75em;
 }
 
 .product__title,
@@ -579,7 +580,7 @@ input {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1000px;
   margin: 0 auto;
-  padding-right: .75em;
+  margin-right: .75em;
 }
 
 .portfolio__items {
