@@ -586,13 +586,13 @@ input {
 .portfolio__items {
   background: var(--body-color);
   overflow: hidden;
+  font-size: 0px;
 }
 
 .portfolio__img {
   transition: 
       transform 750ms cubic-bezier(.5, 0, .5, 1),
       opacity 250ms linear;
-  height: 100%;
 }
 
 .portfolio__item:focus {
