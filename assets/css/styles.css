@@ -334,6 +334,9 @@ input {
 }
 
 .home__container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
   position: relative;
   row-gap: 2rem;
 }
@@ -355,8 +358,8 @@ input {
 
 .home__social{
   position: absolute;
-  top: 2rem;
-  right: -1rem;
+  top: 5rem;
+  right: 1rem;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
@@ -441,6 +444,8 @@ input {
 }
 
 .qualities__container{
+  max-width: 1000px;
+  margin: 0 auto;
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
 }
@@ -449,6 +454,7 @@ input {
   text-align: center;
   max-width: auto;
   align-self: center;
+  margin-top: 2rem;
 }
 
 .qualities__img{
@@ -690,6 +696,8 @@ input {
 }
 
 .contact__container{
+  max-width: 1000px;
+  margin: 0 auto;
   row-gap: 3.5rem;
 }
 
@@ -1418,7 +1426,7 @@ margin-top: 3em;
 }
 .qualities {
   max-width: 100%;
-  padding: 15%
+  padding: 7%
 }
 
 @media screen and (max-width: 400px){
@@ -1429,7 +1437,7 @@ margin-top: 3em;
 
 .contact {
   max-width: 100%;
-  padding: 15%;
+  padding: 7%;
   margin: 0;
   
 }
