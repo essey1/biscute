@@ -692,6 +692,7 @@ input {
 
 /*=============== CONTACT ===============*/
 .contact {
+  max-width: 100%;
   background-color: var(--contact-color);
 }
 
@@ -1420,24 +1421,3 @@ margin-top: 3em;
 
 }
 
-.product {
-  max-width: 100%;
-  padding-left: 1rem;
-}
-.qualities {
-  max-width: 100%;
-  padding: 7%
-}
-
-@media screen and (max-width: 400px){
-  .qualities {
-    padding: 1%;
-  }
-}
-
-.contact {
-  max-width: 100%;
-  padding: 7%;
-  margin: 0;
-  
-}
