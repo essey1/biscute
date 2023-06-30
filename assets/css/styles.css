@@ -693,6 +693,8 @@ input {
 /*=============== CONTACT ===============*/
 .contact {
   max-width: 100%;
+  margin: 0;
+  padding: 1rem;
   background-color: var(--contact-color);
 }
 
@@ -946,6 +948,10 @@ input {
   .product__container{
     grid-template-columns: .6fr;
     justify-content: center;
+  }
+
+  .contact {
+    margin: 0;
   }
 }
 
