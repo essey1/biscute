@@ -522,6 +522,7 @@ input {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem 3rem;
   column-gap: .5rem;
+  margin: 0 .25rem 0 .25rem; 
 }
 
 .product__card {
@@ -537,7 +538,6 @@ input {
   margin-bottom: var(--mb-0-75);
   transition: .3s;
   box-shadow: var(--bs);
-  margin-right: .75em;
 }
 
 .product__title,
@@ -545,6 +545,7 @@ input {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+  margin: 0 .5rem 0 .5rem; 
 }
 
 .product__title{
@@ -586,7 +587,7 @@ input {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1000px;
   margin: 0 auto;
-  padding-right: .75em;
+  padding: 0 .25em 0 .25em;
 }
 
 .portfolio__items {
