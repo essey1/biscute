@@ -329,6 +329,7 @@ input {
 
 /*=============== HOME ===============*/
 .home{
+  position: relative;
   padding: 3.5rem 0 2rem;
   background-color: var(--home-color);
 }
@@ -441,6 +442,7 @@ input {
 .qualities {
   background-color: var(--qualities-color);
   margin: 0;
+  position: relative;
 }
 
 .qualities__container{
@@ -473,6 +475,7 @@ input {
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2rem;
+  position: relative;
 }
 
 .about__img{
@@ -511,6 +514,7 @@ input {
 .product {
   background-color: var(--product-color);
   margin: 0;
+  position: relative;
 }
 
 .product__description {
@@ -617,6 +621,7 @@ input {
 /*=============== QUESTIONS ===============*/
 .questions{
   background-color: var(--first-color-lighten);
+  position: relative;
 }
 
 .questions__container{
@@ -697,6 +702,7 @@ input {
   margin: 0;
   padding: 1rem;
   background-color: var(--contact-color);
+  position: relative;
 }
 
 .contact__container{
@@ -793,6 +799,7 @@ input {
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 3rem;
+  position: relative;
 }
 
 .footer__logo{
@@ -1070,7 +1077,7 @@ input {
   }
 
   .home{
-    padding: 13rem 0 5rem;
+    padding: 7.5rem 0 5rem;
   }
   .home__img{
     width: 550px;
@@ -1191,6 +1198,7 @@ input {
 /* ========================== EVENT ===================== */
 .event {
   background-color: var(--event-color);
+  position: relative;
 }
 .event__container {
   overflow: initial;
@@ -1426,5 +1434,47 @@ margin-top: 3em;
     margin-top: 0;
   }
 
+}
+
+
+.bottom-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.bottom-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 4rem;
+}
+
+.bottom-wave .shape-fill {
+  fill: var(--event-color);
+}
+
+.top-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.top-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 4rem;
+}
+
+.top-wave .shape-fill {
+  fill: #FFFFFF;
 }
 
