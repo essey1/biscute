@@ -217,6 +217,7 @@ input {
   left: 0;
   z-index: var(--z-fixed);
   transition: .4s; /*For animation dark mode*/
+  isolation: isolate;
 }
 
 /*=============== NAV ===============*/
@@ -1451,7 +1452,7 @@ margin-top: 3em;
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 4rem;
+  height: 5rem;
 }
 
 .bottom-wave .shape-fill {
@@ -1471,10 +1472,20 @@ margin-top: 3em;
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 4rem;
+  height: 5rem;
 }
 
 .top-wave .shape-fill {
   fill: #FFFFFF;
+}
+
+@media (min-width: 850px) {
+  .top-wave svg {
+    height: 8rem;
+  }
+
+  .bottom-wave svg {
+    height: 8rem;
+  }
 }
 
