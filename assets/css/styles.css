@@ -923,13 +923,17 @@ input {
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
-  width: .6rem;
-  background: hsl(var(--hue), 4%, 53%);
+  width: .5rem;
+  background: hsl(var(--hue), 30%, 50%);
 }
 
 ::-webkit-scrollbar-thumb{
-  background: hsl(var(--hue), 4%, 29%);
+  background: hsl(var(--hue), 90%, 10%);
   border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--hue), 70%, 25%);
 }
 
 /*=============== BREAKPOINTS ===============*/
