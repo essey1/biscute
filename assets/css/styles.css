@@ -340,6 +340,13 @@ input {
   background-color: var(--home-color);
 }
 
+@media (min-height: 650px) {
+  .home {
+    height: 99vh;
+    height: 99svh;
+  }
+}
+
 .home__container{
   max-width: 1000px;
   margin: 0 auto;
