@@ -277,6 +277,10 @@ input {
     transition: .3s;
     z-index: var(--z-fixed);
   }
+
+  .nav__item {
+    padding: 1rem 0;
+  }
 }
 
 .nav__close{
@@ -290,7 +294,7 @@ input {
 .nav__list{
   display: flex;
   flex-direction: column;
-  margin: 1.5rem;
+  justify-content: space-evenly;
 }
 
 .nav__link{
@@ -1144,7 +1148,7 @@ input {
   }
 
   .home{
-    padding: 4rem 0 4rem 0;
+    padding: 2rem 0 2rem 0;
   }
   .home__img{
     width: 450px;
