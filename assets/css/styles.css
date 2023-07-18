@@ -263,7 +263,7 @@ input {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 760px){
   .nav__menu{
     position: fixed;
     background-color: var(--container-color);
@@ -340,10 +340,16 @@ input {
   background-color: var(--home-color);
 }
 
-@media (min-height: 650px) {
+@media (min-height: 600px) {
   .home {
     height: 99vh;
     height: 99svh;
+  }
+}
+
+@media (min-height: 825px) {
+  .home {
+    height: auto;
   }
 }
 
@@ -373,7 +379,7 @@ input {
 .home__description{
   max-width: 550px;
   margin: 0 auto;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 1rem;
 }
 
 .home__social{
@@ -603,7 +609,7 @@ input {
 .product__card-flip {
   position: relative;
   transform-style: preserve-3d;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 }
 
 .product__img-front,
@@ -995,7 +1001,7 @@ input {
   }
 }
 
-@media screen and (min-width: 801px){
+@media screen and (min-width: 761px){
   body{
     margin: 0;
   }
@@ -1003,18 +1009,19 @@ input {
   .section{
     padding-top: 8rem;
   }  
-
-  .nav{
-    height: calc(var(--header-height) + 1.5rem);
-    column-gap: 3rem;
-  }
   .nav__toggle,
   .nav__close{
     display: none;
   }
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+  }
   .nav__list{
     flex-direction: row;
-    column-gap: 3rem;
+    margin-right: 1rem;
+  }
+  .nav__link {
+    margin-left: 3rem;
   }
   .nav__menu{
     margin-left: auto;
@@ -1029,7 +1036,7 @@ input {
   }
   
   .home{
-    padding: 5rem 0 4rem;
+    padding: 3rem 0 4rem;
   }
   .home__container{
     align-items: center;
@@ -1096,6 +1103,9 @@ input {
   .bd-container{
     margin-left: auto;
     margin-right: auto;
+  }
+  .nav__list{
+    margin-right: 3rem;
   }
 
   .home{
@@ -1229,7 +1239,7 @@ input {
 }
 
 .event__img:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.25, 1.25);
   opacity: .95;
 }
 
