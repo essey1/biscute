@@ -1036,12 +1036,15 @@ input {
     text-align: start;
     padding: 5rem 1rem 7rem 1rem;
   }
+  .home__data {
+    margin-top: 2rem;
+  }
   .home__img{
     width: 430px;
     order: 1;
   }
   .home__social{
-    top: 28%;
+    top: 32%;
     right: 0;
   }
   .qualities__container{
