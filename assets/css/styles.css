@@ -352,7 +352,7 @@ input {
   margin: 0 auto;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem 10rem 1rem;
+  padding: .75rem 1rem 10rem 1rem;
   position: relative;
   row-gap: 2rem;
 }
