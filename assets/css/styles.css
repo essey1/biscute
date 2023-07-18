@@ -336,7 +336,7 @@ input {
 /*=============== HOME ===============*/
 .home{
   position: relative;
-  padding: 3.5rem 0 2rem;
+  padding: 0;
   background-color: var(--home-color);
 }
 
@@ -359,7 +359,7 @@ input {
 
 .home__img{
   width: 350px;
-  padding: 1rem;
+  padding: 0 1rem;
   justify-self: center;
 }
 
@@ -367,7 +367,7 @@ input {
   font-size: var(--big-font-size);
   line-height: 140%;
   margin-bottom: var(--mb-1);
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .home__description{
@@ -378,7 +378,7 @@ input {
 
 .home__social{
   position: absolute;
-  top: 6rem;
+  top: 5rem;
   right: 0;
   display: grid;
   justify-items: center;
@@ -428,12 +428,6 @@ input {
 @media (min-width: 650px) {
   .home__social {
     right: 7rem;
-  }
-}
-
-@media (max-width: 750px) {
-  .home {
-    padding-bottom: 7rem;
   }
 }
 
@@ -603,8 +597,37 @@ input {
 }
 
 .product__card {
-  display: grid;
   position: relative;
+}
+
+.product__card-flip {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.product__img-front,
+.product__img-back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.product__img-back {
+  transform: rotateY(180deg);
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 1.5rem;
+  box-shadow: var(--bs);
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: .625rem;
+  line-height: 1.75;
+}
+
+.product__card:hover .product__card-flip {
+  transform: rotateY(180deg);
 }
 
 .product__img{
@@ -614,6 +637,7 @@ input {
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
+  border-radius: .5rem;
   box-shadow: var(--bs);
 }
 
@@ -628,10 +652,6 @@ input {
 .product__title{
   margin-bottom: .25rem;
   line-height: 1.2;
-}
-
-.product__card:hover .product__img{
-  transform: translateY(-.5rem);
 }
 
 .portfolio {
@@ -1021,7 +1041,7 @@ input {
     order: 1;
   }
   .home__social{
-    top: 30%;
+    top: 28%;
     right: 0;
   }
   .qualities__container{
@@ -1111,9 +1131,9 @@ input {
     width: 100%;
     height: 12rem
   }
-  .product__circle{
-    width: 0px;
-    height: 0px;
+  .product__img-back {
+    padding: 1rem;
+    font-size: .75rem;
   }
   .product__title,
   .product__price{
