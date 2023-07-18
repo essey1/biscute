@@ -352,7 +352,7 @@ input {
   margin: 0 auto;
   align-items: center;
   text-align: center;
-  padding: 2rem 1rem 10rem 1rem;
+  padding: 1rem 1rem 10rem 1rem;
   position: relative;
   row-gap: 2rem;
 }
@@ -378,7 +378,7 @@ input {
 
 .home__social{
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   right: 0;
   display: grid;
   justify-items: center;
