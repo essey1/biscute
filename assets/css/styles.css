@@ -76,7 +76,7 @@
     --h2-font-size: 1.4rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1.125rem;
-    --small-font-size: .875rem;
+    --small-font-size: .938rem;
     --smaller-font-size: .813rem;
   }
 }
@@ -860,6 +860,20 @@ input {
   }
 } 
 
+@media (min-width: 550px) and (max-width: 992px) {
+  .footer__content-address,
+  .footer__map {
+    margin: 0;
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer__map{
+    min-width: 300px;
+  }
+}
+
 .footer__logo{
   display: inline-flex;
   align-items: center;
@@ -954,6 +968,14 @@ input {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
   margin: 5rem 0 1rem;
+}
+
+.footer__copyright {
+  font-size: var(--small-font-size);
+  text-align: center;
+  background-color: #eeeeee;
+  margin-top: 2rem;
+  padding-block: 1rem;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -1581,3 +1603,6 @@ margin-top: 3em;
   }
 }
 
+.footer {
+  padding-bottom: 0;
+}
