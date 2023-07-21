@@ -25,6 +25,7 @@
   --contact-color: rgb(255, 255, 0);
   --background-image: #fff;
   --white-color: #ffffff;
+  --whitish-color: #dedede;
   --container-color: rgb(156, 38, 153);
 
   /*========== Font and typography ==========*/
@@ -184,6 +185,7 @@ body.dark-theme{
   --contact-color: rgb(156, 38, 153);
   --background-image: #404040;
   --white-color: #1a1a1a;
+  --whitish-color: #2d2d2d;
   --container-color: rgb(255, 255, 0);
 }
 
@@ -1018,11 +1020,13 @@ body.dark-theme{
 }
 
 .footer__copyright {
+  position: relative;
   font-size: var(--small-font-size);
   text-align: center;
-  background-color: #dbdbdb;
-  color: #000;
+  color: var(--text-color);
+  background-color: var(--whitish-color);
   padding-block: 1rem;
+  margin-top: 2rem;
 }
 
 .footer__copyright p {
