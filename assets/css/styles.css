@@ -208,6 +208,7 @@ body.dark-theme{
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
   padding: 5.5rem 0 1.5rem;
+  position: relative;
 }
 
 .section__title,
@@ -223,7 +224,7 @@ body.dark-theme{
   text-align: center;
 }
 
-.section__subtitle-center{
+.section__subtitle-center {
   text-align: center;
   display: block;
   color: var(--first-color);
@@ -542,7 +543,7 @@ body.dark-theme{
 .qualities {
   background-color: var(--qualities-color);
   margin: 0;
-  padding: 7rem 0 12rem;
+  padding: 7rem 0 12rem !important;
   position: relative;
 }
 
@@ -558,13 +559,6 @@ body.dark-theme{
     max-width: 1000px;
     margin: 0 auto;
   }
-}
-
-@media (min-width: 992px) {
-  .qualities__container {
-    margin-bottom: 10rem;
-  } 
-
 }
 
 .qualities__content{
@@ -1230,13 +1224,14 @@ body.dark-theme{
   .section{
     padding: 8rem 0 1rem;
   }
+
   .section__title,
   .section__title-center{
     font-size: var(--h1-font-size);
   }
 
   .contact {
-    padding: 10rem 1rem;
+    padding: 7rem 1rem;
   }
 
   .bd-container{
@@ -1509,15 +1504,32 @@ body.dark-theme{
 /* ==== Layout ====*/
 
 #about_us {
-  background-color: #fff458;
-  padding: 5em .5em 1em .5em;
-  margin-bottom: 2em;
+  background-color: var(--home-color);
+  padding: 5em .5em 7em .5em;
 }
 
 #partners {
-  background-color: #a582f7;
-  padding: 5em .5em 7em .5em;
+  background-color: var(--first-color);
+  color: var(--background-image);
+  padding: 5em .5em 9em .5em;
   margin-bottom: 2em;
+}
+
+.section__subtitle-about,
+.section__subtitle-partner {
+  text-align: center;
+  display: block;
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+
+.section__subtitle-about {
+  color: var(--first-color);
+}
+
+.section__subtitle-partner {
+  color: var(--home-color);
+  padding-top: 4rem;
 }
 
 .head {
@@ -1528,16 +1540,20 @@ margin-bottom: 3em;
 }
 
 .page-title {
-color: #000;
-font-size: 2.5rem;
-justify-self: center;
+  color: var(--background-image);
+  justify-self: center;
+  margin-bottom: 1rem;
 }
 
 .main-image {
-grid-column: 2 / -2;
-object-fit: cover;
-width: 100%;
-display: block;
+  grid-column: 2 / -2;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 5%;
 }
 
 .main-text {
@@ -1608,26 +1624,14 @@ margin-top: 3em;
   width: calc(100% + 1.3px);
   height: 4rem;
   transform: rotate(180deg);
-  animation: animate 30s linear infinite;
-}
-
-@keyframes animate
-{
-  0%
-  {
-    background-position-x: 0;
-  }
-  100%
-  {
-    background-position-x: 1000px;
-  }
 }
 
 .bottom-wave .shape-fill {
   fill: var(--background-image);
 }
 
-.top-wave {
+.top-wave,
+.top-wave1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1636,19 +1640,26 @@ margin-top: 3em;
   line-height: 0;
 }
 
-.top-wave svg {
+.top-wave svg,
+.top-wave1 svg {
   position: relative;
   display: block;
-  width: calc(120% + 1.3px);
+  width: calc(100% + 1.3px);
   height: 4rem;
 }
 
-.top-wave .shape-fill {
+.top-wave1 svg {
+  transform: rotate(180deg);
+}
+
+.top-wave .shape-fill,
+.top-wave1 .shape-fill {
   fill: var(--background-image);
 }
 
 @media (min-width: 600px) {
-  .top-wave svg {
+  .top-wave svg,
+  .top-wave1 svg {
     height: 8rem;
   }
 
