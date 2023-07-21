@@ -984,15 +984,17 @@ body.dark-theme{
 }
 
 .footer__social{
-  display: inline-flex;
-  justify-content: start;
-  column-gap: .75rem;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .footer__social-link{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--text-color);
   transition: .3s;
+  margin-bottom: 1rem;
 }
 
 .footer__social-link:hover{
@@ -1018,10 +1020,17 @@ body.dark-theme{
 .footer__copyright {
   font-size: var(--small-font-size);
   text-align: center;
-  background-color: #aaaaaa;
+  background-color: #dbdbdb;
   color: #000;
-  margin-top: 2rem;
   padding-block: 1rem;
+}
+
+.footer__copyright p {
+  padding-block: 1rem;
+}
+
+.fa-brands {
+  font-size: 1.25rem;
 }
 
 /*=============== SCROLL UP ===============*/
