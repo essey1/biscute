@@ -185,7 +185,7 @@ body.dark-theme{
   --contact-color: rgb(156, 38, 153);
   --background-image: #404040;
   --white-color: #1a1a1a;
-  --whitish-color: #2d2d2d;
+  --whitish-color: #303030;
   --container-color: rgb(255, 255, 0);
 }
 
@@ -384,7 +384,7 @@ body.dark-theme{
   background-color: var(--home-color);
 }
 
-@media (min-height: 600px) {
+@media (min-height: 660px) {
   .home {
     height: 99vh;
     height: 99svh;
@@ -402,7 +402,7 @@ body.dark-theme{
   margin: 0 auto;
   align-items: center;
   text-align: center;
-  padding: .75rem 1rem 10rem 1rem;
+  padding: 4rem 1rem 10rem 1rem;
   position: relative;
   row-gap: 2rem;
 }
@@ -430,7 +430,7 @@ body.dark-theme{
 
 .home__social{
   position: absolute;
-  top: 4rem;
+  top: 7.5rem;
   right: 0;
   display: grid;
   justify-items: center;
@@ -1262,7 +1262,7 @@ body.dark-theme{
     width: 450px;
   }
   .home__description{
-    padding-right: 7rem;
+    padding-right: 1rem;
   }
 
   .about__img{
