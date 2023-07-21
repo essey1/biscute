@@ -174,7 +174,7 @@ body.dark-theme{
   --first-color-alt: rgba(255, 255, 0, 0.5);
   --title-color: #ffffff;
   --text-color: hsl(var(--hue), 100%, 100%);
-  --text-color-light: hsl(var(--hue), 50%, 5%);
+  --text-color-light: hsl(var(--hue), 50%, 90%);
   --first-color-dark: hsl(var(--hue), 8%, 20%);
   --body-color: rgb(255, 255, 0);
   --home-color: rgb(156, 38, 153);
@@ -422,6 +422,7 @@ body.dark-theme{
   margin: 0 auto;
   margin-bottom: 1rem;
   color: var(--title-color);
+  padding-left: .25rem;
 }
 
 .home__social{
@@ -559,9 +560,9 @@ body.dark-theme{
   }
 }
 
-@media (min-width: 999px) {
+@media (min-width: 992px) {
   .qualities__container {
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
   } 
 
 }
@@ -574,8 +575,8 @@ body.dark-theme{
 }
 
 .qualities__img{
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   fill: var(--first-color);
   margin-bottom: var(--mb-1);
 }
@@ -710,6 +711,12 @@ body.dark-theme{
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 .25em 0 .25em;
+}
+
+@media (max-width: 730px) {
+  .portfolio__hide {
+    display: none;
+  }
 }
 
 .portfolio__items {
@@ -1265,7 +1272,7 @@ body.dark-theme{
   }
 
   .product__description{
-    padding: 0 16rem;
+    padding: 0 10rem;
   }
   .product__container{
     padding: 2rem 0 4rem 0;
