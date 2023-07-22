@@ -1029,6 +1029,12 @@ body.dark-theme{
   margin-top: 2rem;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__copyright {
+    padding-top: 2rem;
+  }
+}
+
 .footer__copyright p {
   padding-block: 1rem;
 }
@@ -1374,6 +1380,7 @@ body.dark-theme{
 
 .event__img {
   width: 265px;
+  margin-right: 1rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -1675,7 +1682,22 @@ margin-top: 3em;
   fill: var(--background-image);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
+  .top-wave svg,
+  .top-wave1 svg {
+    height: 6rem;
+  }
+
+  .bottom-wave svg {
+    height: 6rem;
+  }
+}
+
+.footer {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1000px) {
   .top-wave svg,
   .top-wave1 svg {
     height: 8rem;
