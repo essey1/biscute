@@ -714,7 +714,7 @@ body.dark-theme{
   padding: 0 .25em 0 .25em;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 487.5px) {
   .portfolio__hide {
     display: none;
   }
