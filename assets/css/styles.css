@@ -664,6 +664,8 @@ body.dark-theme{
 }
 
 .product__img-back {
+  display: grid;
+  place-items: center;
   transform: rotateY(180deg);
   right: 0;
   left: 0;
@@ -672,7 +674,7 @@ body.dark-theme{
   box-shadow: var(--bs);
   border-radius: .5rem;
   padding: .75rem;
-  font-size: .625rem;
+  font-size: .7rem;
   line-height: 1.75;
   background-color: #fff;
   color: #000;
@@ -774,7 +776,8 @@ body.dark-theme{
   align-items: center;
   column-gap: .5rem;
   padding-right: .25rem;
-  width: 240px
+  width: 240px;
+  transition: all 250ms ease-in-out;
 }
 
 .contact__social-icon p {
@@ -787,7 +790,7 @@ body.dark-theme{
   padding-inline: .1rem;
 }
 
-.contact__social-icon i:hover {
+.contact__social-icon:hover {
   opacity: .6;
 }
 
