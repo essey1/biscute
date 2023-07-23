@@ -9,7 +9,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 302;
   --first-color: hsl(var(--hue), 58%, 38%);
-  --nav: hsl(var(--hue), 20%, 95%);
+  --nav: rgb(245, 240, 245);
   --nav-selected: rgb(255, 255, 0);
   --first-color-alt: hsl(var(--hue), 50%, 28%);
   --first-color-light: hsl(var(--hue), 50%, 20%);
@@ -298,7 +298,7 @@ body.dark-theme{
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  color: var(--whitish-color);
 }
 
 .nav__toggle{
@@ -1412,7 +1412,7 @@ body.dark-theme{
   margin-bottom: var(--mb-0-75);
 }
 .event__button {
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 1rem;
 }
 .event__button:hover .button__icon {
   transform: translateX(0.25rem);
