@@ -425,7 +425,6 @@ body.dark-theme{
   margin: 0 auto;
   margin-bottom: 1rem;
   color: var(--title-color);
-  padding-left: .25rem;
 }
 
 .home__social{
@@ -1276,7 +1275,7 @@ body.dark-theme{
     width: 450px;
   }
   .home__description{
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 
   .about__img{
