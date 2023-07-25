@@ -710,13 +710,13 @@ body.dark-theme{
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 .25em 0 .25em;
 }
 
-@media (max-width: 487.5px) {
+@media (max-width: 510px) {
   .portfolio__hide {
     display: none;
   }
@@ -743,6 +743,48 @@ body.dark-theme{
 .portfolio__items:focus .portfolio__img {
   transform: scale(1.125, 1.125);
   opacity: .75;
+}
+
+@media (min-width: 760px) {
+  .portfolio__items {
+    overflow: visible;
+  }
+
+  .portfolio__img:hover,
+  .portfolio__items:focus .portfolio__img {
+    transform: scale(1, 1);
+    opacity: 1; 
+  }
+
+  .portfolio__img1:hover {
+    transform: translate(100%, 50%)
+               scale(3, 2);
+  }
+  
+  .portfolio__img2:hover {
+    transform: translate(0%, 50%)
+               scale(3, 2);
+  }
+  
+  .portfolio__img3:hover {
+    transform: translate(-100%, 50%)
+               scale(3, 2);
+  }
+  
+  .portfolio__img4:hover {
+    transform: translate(100%, -50%)
+               scale(3, 2);
+  }
+  
+  .portfolio__img5:hover {
+    transform: translate(0%, -50%)
+               scale(3, 2);
+  }
+  
+  .portfolio__img6:hover {
+    transform: translate(-100%, -50%)
+               scale(3, 2);
+  }
 }
 
 /*=============== CONTACT ===============*/
