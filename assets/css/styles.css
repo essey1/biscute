@@ -35,10 +35,10 @@
   --big-font-size: 2rem;
   --h1-font-size: 1.7rem;
   --h2-font-size: 1.3rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .938rem;
+  --smaller-font-size: .815rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -674,10 +674,16 @@ body.dark-theme{
   box-shadow: var(--bs);
   border-radius: .5rem;
   padding: .75rem;
-  font-size: .7rem;
-  line-height: 1.75;
+  font-size: .75rem;
+  line-height: 2;
   background-color: #fff;
   color: #000;
+}
+
+@media (max-width: 350px) {
+  .product__img-back {
+    line-height: 1.5;
+  }
 }
 
 .product__card:hover .product__card-flip {
