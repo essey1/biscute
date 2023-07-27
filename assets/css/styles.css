@@ -1799,18 +1799,21 @@ margin-top: 3em;
 .designers {
   font-size: 0.75rem;
   margin: 0;
-  padding: 0 .25rem .5rem 0;
+  padding: 0 .5rem .25rem 0;
   text-align: end;
-  opacity: 0.5;
-  transition: all 750ms ease-in-out;
+  opacity: 0.25;
 }
 
 .designers a {
-  color: #2a8cad;
+  color: #3d789f;
 }
 
 .designers:hover {
   opacity: 1;
+}
+
+.designers a:hover {
+  opacity: .8;
 }
 
 @media (max-width: 1000px) {
