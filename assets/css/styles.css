@@ -1083,7 +1083,7 @@ body.dark-theme{
   text-align: center;
   color: var(--text-color);
   background-color: var(--whitish-color);
-  padding-block: 1rem;
+  padding-top: 1rem;
   margin-top: 2rem;
 }
 
@@ -1093,8 +1093,18 @@ body.dark-theme{
   }
 }
 
-.footer__copyright p {
+.socials-header {
   padding-block: 1rem;
+}
+
+.copyright {
+  padding-block: 1rem;
+}
+
+@media (min-width: 1001px) {
+  .copyright {
+    padding-bottom: 0;
+  }
 }
 
 .fa-brands {
@@ -1784,4 +1794,27 @@ margin-top: 3em;
 
 .footer {
   padding-bottom: 0;
+}
+
+.designers {
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0 .25rem .5rem 0;
+  text-align: end;
+  opacity: 0.5;
+  transition: all 750ms ease-in-out;
+}
+
+.designers a {
+  color: #2a8cad;
+}
+
+.designers:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .designers {
+    display: none;
+  }
 }
