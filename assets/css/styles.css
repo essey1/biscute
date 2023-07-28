@@ -92,7 +92,7 @@ body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--white-color);
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  transition: all 400ms ease; /*For animation dark mode*/
 }
 
 
@@ -184,7 +184,7 @@ body.dark-theme{
 }
 
 .dark-theme .scroll-header{
-  box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, .3);
+  box-shadow: var(--bs);
 }
 
 
@@ -296,7 +296,7 @@ body.dark-theme{
     height: 100%;
     top: 0;
     right: -100%;
-    box-shadow: -2px 0 4px hsla(var(--hue), 24%, 15%, .1);
+    box-shadow: var(--bs);
     padding: 4rem 0 0 3rem;
     border-radius: 1rem 0 0 1rem;
     transition: .3s;
