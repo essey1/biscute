@@ -1,7 +1,7 @@
 /*=============== SCROLL UP ===============*/
 .scrollup{
     position: fixed;
-    background: var(--first-color);
+    background: var(--purple);
     right: 1rem;
     bottom: -30%;
     display: inline-flex;
@@ -12,7 +12,7 @@
     transition: .4s;
 
     &:hover{
-        background-color: var(--first-color);
+        background-color: var(--purple);
         opacity: 1;
     }
 

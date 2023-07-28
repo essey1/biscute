@@ -1,6 +1,6 @@
 /*=============== QUESTIONS ===============*/
 .questions{
-    background-color: var(--first-color-lighten);
+    background-color: var(--purple-lighten);
 
     &__container{
         gap: 1.5rem;
@@ -11,7 +11,7 @@
         row-gap: 1.5rem;
     }
     &__item{
-        background-color: var(--container-color);
+        background-color: var(--purple);
         border-radius: .25rem;
 
         &:hover{
@@ -24,7 +24,7 @@
     }
     &__icon{
         font-size: 1.25rem;
-        color: var(--title-color);
+        color: var(--text-color);
     }
     &__description{
         font-size: var(--smaller-font-size);
@@ -55,7 +55,7 @@
 .accordion-open{
     & .questions__header,
     & .questions__content{
-        background-color: var(--first-color);
+        background-color: var(--purple);
     }
     & .questions__item-title,
     & .questions__description,

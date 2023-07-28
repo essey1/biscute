@@ -27,7 +27,7 @@
     &__price{
         font-size: var(--small-font-size);
         font-weight: var(--font-semi-bold);
-        color: var(--title-color);
+        color: var(--text-color);
     }
     &__title{
         margin-bottom: .25rem;
@@ -36,20 +36,20 @@
         position: absolute;
         right: 0;
         bottom: 0;
-        background-color: var(--first-color);
+        background-color: var(--purple);
         color: #FFF;
         padding: .25rem;
         border-radius: .35rem;
         font-size: 1.15rem;
 
         &:hover{
-            background-color: var(--first-color-alt);
+            background-color: var(--purple-alt);
         }
     }
     &__circle{
         width: 90px;
         height: 90px;
-        background-color: var(--first-color-lighten);
+        background-color: var(--purple-lighten);
         border-radius: 50%;
         position: absolute;
         top: 18%;

@@ -1,7 +1,7 @@
 /*=============== HEADER ===============*/
 .header{
     width: 100%;
-    background-color: var(--body-color);
+    background-color: var(--purple);
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@
     &__logo,
     &__toggle,
     &__close{
-        color: var(--title-color);
+        color: var(--text-color);
     }
     &__logo{
         text-transform: uppercase;
@@ -31,12 +31,12 @@
         transition: .3s;
 
         &:hover{
-            color: var(--first-color);
+            color: var(--purple);
         }
 
         &-icon{
             font-size: 1.15rem;
-            color: var(--first-color);
+            color: var(--purple);
         }
     }
     &__toggle{
@@ -48,7 +48,7 @@
     &__menu{
         @media screen and (max-width: 767px){
             position: fixed;
-            background-color: var(--container-color);
+            background-color: var(--purple);
             width: 80%;
             height: 100%;
             top: 0;
@@ -73,11 +73,11 @@
         row-gap: 1.5rem;
     }
     &__link{
-        color: var(--title-color);
+        color: var(--text-color);
         font-weight: var(--font-medium);
 
         &:hover{
-            color: var(--first-color);
+            color: var(--purple);
         }
     }
 }
@@ -95,7 +95,7 @@
 /* Active link */
 .active-link{
     position: relative;
-    color: var(--first-color);
+    color: var(--purple);
 
     &::after{
         content: '';
@@ -104,6 +104,6 @@
         left: 0;
         width: 50%;
         height: 2px;
-        background-color: var(--first-color);
+        background-color: var(--purple);
     }
 }

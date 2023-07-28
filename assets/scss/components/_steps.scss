@@ -1,7 +1,7 @@
 /*=============== STEPS ===============*/
 .steps{
     &__bg{
-        background-color: var(--first-color);
+        background-color: var(--purple);
         padding: 3rem 2rem 2rem;
         border-radius: 1rem;
     }
@@ -13,7 +13,7 @@
         color: #FFF;
     }
     &__card{
-        background-color: var(--container-color);
+        background-color: var(--purple);
         padding: 2.5rem 3rem 2rem 1.5rem;
         border-radius: 1rem;
 
@@ -23,7 +23,7 @@
 
         &-number{
             display: inline-block;
-            background-color: var(--first-color-alt);
+            background-color: var(--purple-alt);
             color: #FFF;
             padding: .5rem .75rem;
             border-radius: .25rem;

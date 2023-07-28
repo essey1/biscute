@@ -19,7 +19,7 @@ textarea{
 
 body{
     margin: var(--header-height) 0 0 0;
-    background-color: var(--body-color);
+    background-color: var(--purple);
     color: var(--text-color);
     transition: .4s; // For animation dark mode
 }
@@ -31,7 +31,7 @@ button{
 }
 
 h1,h2,h3{
-    color: var(--title-color);
+    color: var(--text-color);
     font-weight: var(--font-semi-bold);  
 }
 

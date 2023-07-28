@@ -9,15 +9,15 @@
     /*Color mode HSL(hue, saturation, lightness)*/
     --hue: 152;
 
-    --first-color: hsl(var(--hue), 24%, 32%);
-    --first-color-alt: hsl(var(--hue), 24%, 28%);
-    --first-color-light: hsl(var(--hue), 24%, 66%);
-    --first-color-lighten: hsl(var(--hue), 24%, 92%);
-    --title-color: hsl(var(--hue), 4%, 15%);
+    --purple: hsl(var(--hue), 24%, 32%);
+    --purple-alt: hsl(var(--hue), 24%, 28%);
+    --purple-light: hsl(var(--hue), 24%, 66%);
+    --purple-lighten: hsl(var(--hue), 24%, 92%);
+    --text-color: hsl(var(--hue), 4%, 15%);
     --text-color: hsl(var(--hue), 4%, 35%);
     --text-color-light: hsl(var(--hue), 4%, 55%);
-    --body-color: hsl(var(--hue), 0%, 100%);
-    --container-color: #FFF;
+    --purple: hsl(var(--hue), 0%, 100%);
+    --purple: #FFF;
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
