@@ -796,7 +796,7 @@ body.dark-theme{
 
 .contact__social-icon {
   display: inline-flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   column-gap: .5rem;
   padding-right: .25rem;
