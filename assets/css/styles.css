@@ -360,7 +360,7 @@ body.dark-theme{
   background-color: var(--yellow);
 }
 
-@media (min-height: 660px) and (min-width: 761px) {
+@media (min-height: 575px) and (min-width: 761px) {
   .home {
     height: 98vh;
     height: 98svh;
@@ -385,7 +385,7 @@ body.dark-theme{
 
 .home__img{
   width: 350px;
-  padding: 0 1rem;
+  padding: 1rem;
   justify-self: center;
 }
 
@@ -1191,7 +1191,7 @@ iframe {
   .home__container{
     align-items: center;
     text-align: start;
-    padding: 7rem 1rem 7rem 1rem;
+    padding: 5rem 1rem 7rem 1rem;
   }
   .home__data {
     margin-top: 1rem;
