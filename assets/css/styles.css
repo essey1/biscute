@@ -622,6 +622,10 @@ body.dark-theme{
   margin: 0 .25rem 0 .25rem; 
 }
 
+.product__contact-link {
+  color: var(--purple)
+}
+
 .product__card {
   position: relative;
 }

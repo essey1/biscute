@@ -608,6 +608,10 @@ body.dark-theme{
        column-gap: .5rem;
   margin: 0 .25rem 0 .25rem; 
 }
+.product__contact-link {
+  color: #992995;
+  color: var(--purple)
+}
 .product__card {
   position: relative;
 }
