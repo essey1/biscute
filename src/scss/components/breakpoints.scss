@@ -153,6 +153,11 @@
     .section__title-center{
       font-size: var(--h1-font-size);
     }
+
+    .event {
+      padding: 5rem 0 8rem;
+    }
+
   
     .contact {
       padding: 7rem 1rem;
@@ -234,20 +239,6 @@
     .home__social-link{
       font-size: 1.5rem;
     }
-  
-    .gallery__card {
-      width: 237px;
-    }
-    .gallery__container {
-      width: 700px;
-    }
-    .gallery__data {
-      left: 1.5rem;
-      bottom: 2rem;
-    }
-    .gallery__title {
-      font-size: var(--h2-font-size);
-    }  
   
     .about__container{
       column-gap: 7rem;
