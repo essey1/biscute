@@ -1,0 +1,134 @@
+/*=============== BASE ===============*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+  html{
+    scroll-behavior: smooth;
+}
+  
+  body,
+  button,
+  input,
+  textarea{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+  
+  body{
+    margin: var(--header-height) 0 0 0;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    transition: all 400ms ease; /*For animation dark mode*/
+}
+  
+  
+  
+  button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  h1,h2,h3{
+    color: var(--text-color);
+    font-weight: var(--font-semi-bold);
+    font-family: var(--title-font);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input {
+    outline: none;
+  }
+  
+  .main {
+    overflow-x: hidden;
+  }
+
+/*========== LAYOUT ==========*/
+.bd-container{
+    max-width: 960px;
+    width: calc(100% - 0%);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+}
+  
+  .bd-grid{
+    display: grid;
+    gap: 1.5rem;
+}
+  
+  .l-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--purple);
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section{
+    padding: 5.5rem 0 1.5rem;
+    position: relative;
+  }
+  
+  .section__title,
+  .section__title-center{
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+    text-transform: capitalize;
+    margin-bottom: var(--mb-2);
+    line-height: 140%;
+  }
+  
+  .section__title-center{
+    text-align: center;
+  }
+  
+  .section__subtitle-center {
+    text-align: center;
+    display: block;
+    color: var(--purple);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+  }
+  
+  .container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  
+  
+  .products, .qualities {
+    max-width: 100%;
+  }
+  
+  .grid{
+    display: grid;
+  }
+  
+  .main{
+    overflow: hidden; /*For animation*/
+  }
+  
+  

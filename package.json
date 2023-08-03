@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss:watch": "postcss assets/css/styles.css --dir public --watch"
+    "postcss:watch": "postcss src/css/style.css --dir public --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,10 +12,12 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
+    "parcel-bundler": "^1.8.1",
     "postcss": "^8.4.27",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^9.1.0"
+    "postcss-preset-env": "^9.1.0",
+    "sass": "^1.64.2"
   },
   "browserslist": [
     "last 1 version",

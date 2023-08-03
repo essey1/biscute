@@ -1,0 +1,129 @@
+/*=============== HOME ===============*/
+.home{
+    position: relative;
+    padding: 0;
+    background-color: var(--yellow);
+  }
+  
+  @media (min-height: 575px) and (min-width: 761px) {
+    .home {
+      height: 98vh;
+      height: 98svh;
+    }
+  }
+  
+  @media (min-height: 750px) {
+    .home {
+      height: auto;
+    }
+  }
+  
+  .home__container{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 1rem 5rem 1rem;
+    position: relative;
+    row-gap: 2rem;
+  }
+  
+  .home__img{
+    width: 350px;
+    padding: 1rem;
+    justify-self: center;
+  }
+  
+  .home__title{
+    font-size: var(--big-font-size);
+    line-height: 140%;
+    margin-bottom: var(--mb-1);
+    margin-top: 0;
+  }
+  
+  .home__description{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  
+  .home__social{
+    position: absolute;
+    top: 8.75rem;
+    right: 0;
+    display: grid;
+    justify-items: center;
+    row-gap: 3.75rem;
+  }
+  
+  @media (max-width: 350px) {
+    .home__social {
+      top: 8rem;
+    }
+  }
+  
+  .home__social-follow{
+    font-weight: var(--font-medium);
+    font-size: var(--normal-font-size);
+    color: var(--purple);
+    position: relative;
+    transform: rotate(90deg);
+  }
+  
+  .home__social-follow::after{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1px;
+    background-color: var(--purple);
+    right: -35%;
+    top: 45%;
+  }
+  
+  .home__social-links{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: .25rem;
+  }
+  
+  .home__social-link{
+    font-size: 1.35rem;
+    color: var(--purple);
+    transition: .3s;
+  }
+  
+  .home__social-link:hover{
+    transform: translateX(.25rem);
+  }
+  
+  @media (min-width: 550px) {
+    .home__social {
+      right: 4rem;
+    }
+  }
+  
+  @media (min-width: 650px) {
+    .home__social {
+      right: 7rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .home__social {
+      row-gap: 3.25rem;
+    }
+  
+    .home__social-follow {
+      font-size: var(--smaller-font-size);
+    }
+  
+    .home__social-follow::after {
+      right: -45%;
+      top: 50%;
+    }
+  
+    .home__social-link {
+      font-size: 1rem;
+    }
+  }

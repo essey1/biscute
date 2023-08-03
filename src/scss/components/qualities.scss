@@ -1,0 +1,42 @@
+/*========== QUALITIES ==========*/
+.qualities {
+    background-color: var(--yellow);
+    margin: 0;
+    padding: 7rem 0 12rem !important;
+    position: relative;
+  }
+  
+  .qualities__container{
+    max-width: 500px;
+    margin: 0 auto;
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+  }
+  
+  @media (min-width: 900px) {
+    .qualities__container{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+  
+  .qualities__content{
+    text-align: center;
+    max-width: auto;
+    align-self: center;
+    margin-top: 2rem;
+  }
+  
+  .qualities__img{
+    width: 80px;
+    height: 80px;
+    fill: var(--purple);
+    margin-bottom: var(--mb-1);
+  }
+  
+  .qualities__title{
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    margin-bottom: var(--mb-1);
+  }
+  

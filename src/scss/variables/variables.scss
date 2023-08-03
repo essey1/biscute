@@ -1,0 +1,100 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem; /*56px*/
+
+  /*========== Colors ==========*/
+  --purple: #992995;
+  --nav-color: #f5f0f5;
+  --yellow: #ffff00;
+  --white-color: #fff;
+  --text-color: #080708;
+  --text-color-light: #918891;
+  --blog-title-lines: #ceb300;
+  --whitish-color: #eeeeee;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Poppins', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.7rem;
+  --h2-font-size: 1.3rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .938rem;
+  --smaller-font-size: .815rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-5: 5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 1.5rem;
+  --mb-6: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+
+  --bs: .25em .25em .75em rgba(0,0,0,.25),
+            .125em .125em .25em rgba(0,0,0,.15);
+}
+
+/* Responsive typography */
+@media screen and (min-width: 1000px) {
+  :root {
+    --big-font-size: 2.4rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.4rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1.125rem;
+    --small-font-size: .938rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*=============== THEME ===============*/
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+    --purple: #ffff00;
+    --nav-color: #1a1a1a;
+    --yellow: #9c2699;
+    --white-color: #404040;
+    --text-color: #fff;
+    --text-color-light: #f2d9f1;
+    --blog-title-lines: #9c2699;
+    --whitish-color: #303030;
+  }
+  
+  /*========== Button Dark/Light ==========*/
+  .change-theme{
+    color: #000;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+  
+  .nav__btns{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  
+  .dark-theme .scroll-header{
+    box-shadow: var(--bs);
+  }

@@ -1,0 +1,42 @@
+/*=============== SCROLL UP ===============*/
+.scrollup{
+    position: fixed;
+    background-color: var(--purple);
+    right: 1rem;
+    bottom: -30%;
+    display: inline-flex;
+    padding: .5rem;
+    border-radius: .25rem;
+    z-index: var(--z-tooltip);
+    opacity: .8;
+    transition: .4s;
+  }
+  
+  .scrollup__icon{
+    font-size: 1rem;
+    color: #FFF;
+  }
+  
+  .scrollup:hover{
+    opacity: .6;
+  }
+  
+  /* Show Scroll Up*/
+  .show-scroll{
+    bottom: 3rem;
+  }
+  
+  /*=============== SCROLL BAR ===============*/
+  ::-webkit-scrollbar{
+    width: .5rem;
+    background: var(--purple);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: hsl(302, 90%, 10%);
+    border-radius: .5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(302, 78%, 17%);
+  }

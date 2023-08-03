@@ -1,0 +1,119 @@
+/*=============== HEADER ===============*/
+.header{
+    width: 100%;
+    background-color: var(--purple);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: .4s; /*For animation dark mode*/
+    isolation: isolate;
+  }
+  
+  /*=============== NAV ===============*/
+  .nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__logo,
+  .nav__toggle,
+  .nav__close{
+    color: var(--nav-color);
+  }
+  
+  .nav__logo{
+    font-weight: 600;
+    font-size: 1.125rem;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    transition: .3s;
+  
+  }
+  
+  .nav__logo-icon{
+    font-size: 1.15rem;
+    width: 60px;
+    margin: .25em .25em 0 0;
+    padding: 0;
+    color: var(--purple);
+  }
+  
+  .nav__logo:hover{
+    color: var(--whitish-color);
+  }
+  
+  .nav__toggle{
+    display: inline-flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 800px){
+    .nav__menu{
+      position: fixed;
+      background-color: var(--purple);
+      width: 80%;
+      height: 100%;
+      top: 0;
+      right: -100%;
+      box-shadow: var(--bs);
+      padding: 4rem 0 0 3rem;
+      border-radius: 1rem 0 0 1rem;
+      transition: .3s;
+      z-index: var(--z-fixed);
+    }
+  
+    .nav__item {
+      padding: 1rem 0;
+    }
+  }
+  
+  .nav__close{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .nav__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .nav__link{
+    color: var(--nav-color);
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+  
+  .nav__link:hover{
+    opacity: .6;
+  }
+  
+  /* Show menu */
+  .show-menu{
+    right: 0;
+  }
+  
+  /* Active link */
+  .active-link{
+    position: relative;
+    color: var(--yellow);
+  }
+  
+  .active-link::after{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: var(--yellow);
+  }
+  

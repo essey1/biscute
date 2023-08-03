@@ -1,0 +1,82 @@
+.bottom-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .bottom-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 3rem;
+    transform: rotate(180deg);
+  }
+  
+  .bottom-wave .shape-fill {
+    fill: var(--white-color);
+  }
+  
+  .top-wave,
+  .top-wave1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .top-wave svg,
+  .top-wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 3rem;
+  }
+  
+  .top-wave1 svg {
+    transform: rotate(180deg);
+  }
+  
+  .top-wave .shape-fill,
+  .top-wave1 .shape-fill {
+    fill: var(--white-color);
+  }
+  
+  @media (min-width: 400px) {
+    .top-wave svg,
+    .top-wave1 svg {
+      height: 4rem;
+    }
+  
+    .bottom-wave svg {
+      height: 4rem;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .top-wave svg,
+    .top-wave1 svg {
+      height: 6rem;
+    }
+  
+    .bottom-wave svg {
+      height: 6rem;
+    }
+  }
+  
+  
+  @media (min-width: 1000px) {
+    .top-wave svg,
+    .top-wave1 svg {
+      height: 8rem;
+    }
+  
+    .bottom-wave svg {
+      height: 8rem;
+    }
+  }
+  
