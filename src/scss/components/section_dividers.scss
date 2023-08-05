@@ -1,4 +1,5 @@
-.bottom-wave {
+.bottom-wave,
+.bottom-wave1 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -7,7 +8,8 @@
     line-height: 0;
   }
   
-  .bottom-wave svg {
+  .bottom-wave svg,
+  .bottom-wave1 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -15,6 +17,10 @@
     transform: rotate(180deg);
   }
   
+  .bottom-wave1 .shape-fill {
+    fill: var(--purple);
+  }
+
   .bottom-wave .shape-fill {
     fill: var(--white-color);
   }
@@ -52,7 +58,8 @@
       height: 4rem;
     }
   
-    .bottom-wave svg {
+    .bottom-wave svg,
+    .bottom-wave1 svg {
       height: 4rem;
     }
   }
@@ -63,7 +70,8 @@
       height: 6rem;
     }
   
-    .bottom-wave svg {
+    .bottom-wave svg,
+    .bottom-wave1 svg {
       height: 6rem;
     }
   }
