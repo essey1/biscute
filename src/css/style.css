@@ -386,7 +386,7 @@ input {
 
 .home__social {
   position: absolute;
-  top: 8.75rem;
+  top: 9.75rem;
   right: 0;
   display: grid;
   justify-items: center;
@@ -395,7 +395,7 @@ input {
 
 @media (max-width: 350px) {
   .home__social {
-    top: 8rem;
+    top: 9rem;
   }
 }
 .home__social-follow {
@@ -1019,9 +1019,8 @@ input {
   padding: 5%;
 }
 .right img {
-  border-radius: 0;
+  border-radius: 0.1em;
   justify-self: center;
-  box-shadow: var(--bs);
 }
 
 .right p {
@@ -1045,8 +1044,8 @@ img {
 }
 
 .section__subtitle-left {
-  margin-top: 2.5rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1090,6 +1089,8 @@ img {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   grid-column-gap: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 @media (max-width: 500px) {
@@ -1100,14 +1101,14 @@ img {
 /* ==== Layout ====*/
 #about_us {
   background-color: var(--yellow);
-  padding: 5em 0.5em 10em 0.5em;
+  padding: 5em 0.5em 8em;
   text-align: justify;
 }
 
 #partners {
   background-color: var(--purple);
   color: var(--white-color);
-  padding: 5em 0.5em 9em 0.5em;
+  padding: 2em 0.5em 10em;
   text-align: justify;
 }
 
@@ -1136,10 +1137,16 @@ img {
   margin-bottom: 3em;
 }
 
-.page-title {
+.page__title-about,
+.page__title-partner {
   color: var(--white-color);
   justify-self: center;
   margin-bottom: 1rem;
+  margin-top: 2em;
+}
+
+.page__title-about {
+  color: var(--text-color);
 }
 
 .main-image {
@@ -1168,8 +1175,7 @@ img {
   height: 2px;
   margin-top: 1em;
   background: var(--blog-title-lines);
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 }
 
 .sub {
@@ -1186,13 +1192,13 @@ img {
 }
 @media (min-width: 800px) {
   .main-image {
-    grid-column: 1/3;
-    margin-top: 3rem;
+    grid-column: 3/2;
+    margin-top: 3.25rem;
   }
   .main-text {
     grid-column: 3/span 2;
     margin-top: 0;
-    max-width: 800px;
+    max-width: 600px;
   }
 }
 /*=============== FOOTER ===============*/
@@ -1550,7 +1556,7 @@ iframe {
     margin-right: auto;
   }
   .section {
-    padding: 8rem 0 1rem;
+    padding: 7rem 0 1rem;
   }
   .section__title,
   .section__title-center {
@@ -1560,7 +1566,7 @@ iframe {
     padding: 5rem 0 8rem;
   }
   .contact {
-    padding: 7rem 1rem;
+    padding: 10rem 1rem 12rem;
   }
   .bd-container {
     margin-left: auto;
