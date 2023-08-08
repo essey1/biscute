@@ -22,7 +22,6 @@
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
-    text-align: center;
     padding: 5rem 1rem 5rem 1rem;
     position: relative;
     row-gap: 2rem;
@@ -34,6 +33,13 @@
     padding: 1rem;
     justify-self: center;
   }
+
+  @media (max-width: 760px) {
+    .home__data {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
   
   .home__title{
     font-size: var(--big-font-size);
@@ -43,9 +49,7 @@
   }
   
   .home__description{
-    max-width: 550px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: var(--text-color);
   }
   

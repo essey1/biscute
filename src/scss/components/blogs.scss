@@ -11,6 +11,11 @@
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
   
   .wrap {
       height: 100%;
@@ -84,7 +89,7 @@
           float: none;
           position: relative !important;
           width: 100%;
-          font-size: 95%;
+          font-size: 100%;
       }
   }
   

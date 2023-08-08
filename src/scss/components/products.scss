@@ -7,7 +7,7 @@
   
   .product__description {
     text-align: center;
-    margin: 2rem 0 1rem 0;
+    margin: 3rem .5rem 1rem;
   }
   
   .product__container {
@@ -98,11 +98,11 @@
     padding: 0 .25em 0 .25em;
   }
   
-  @media (max-width: 510px) {
-    .portfolio__hide {
-      display: none;
-    }
-  }
+  // @media (max-width: 510px) {
+  //   .portfolio__hide {
+  //     display: none;
+  //   }
+  // }
   
   .portfolio__items {
     background: var(--purple);
