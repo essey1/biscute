@@ -111,6 +111,7 @@
     color: var(--text-color);
     transition: .3s;
     margin-bottom: 1rem;
+    z-index: 2;
   }
   
   .footer__social-link:hover{

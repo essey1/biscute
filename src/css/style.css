@@ -362,6 +362,7 @@ input {
   padding: 5rem 1rem 5rem 1rem;
   position: relative;
   row-gap: 2rem;
+  z-index: 2;
 }
 
 .home__img {
@@ -1306,6 +1307,7 @@ img {
   color: var(--text-color);
   transition: 0.3s;
   margin-bottom: 1rem;
+  z-index: 2;
 }
 
 .footer__social-link:hover {
@@ -1686,6 +1688,7 @@ iframe {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  pointer-events: visible;
 }
 
 .top-wave svg,
@@ -1694,6 +1697,7 @@ iframe {
   display: block;
   width: calc(100% + 1.3px);
   height: 3rem;
+  pointer-events: visible;
 }
 
 .top-wave1 svg {

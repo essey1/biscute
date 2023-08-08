@@ -16,7 +16,7 @@
     height: 3rem;
     transform: rotate(180deg);
   }
-  
+
   .bottom-wave1 .shape-fill {
     fill: var(--purple);
   }
@@ -33,6 +33,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    pointer-events: visible;
   }
   
   .top-wave svg,
@@ -41,6 +42,7 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 3rem;
+    pointer-events: visible;
   }
   
   .top-wave1 svg {
