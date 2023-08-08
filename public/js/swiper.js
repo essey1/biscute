@@ -11,12 +11,3 @@ let swiperEvent = new Swiper(".event__container", {
         clickable: true,
     },
 });
-
-// Clear all the input values after the user submits the form
-const formToReset = document.getElementById('contactForm');
-formToReset.addEventListener('submit', (e) => {
-   setTimeout(function() { 
-    e.preventDefault();
-    formToReset.reset();
-   }, 1);
-});

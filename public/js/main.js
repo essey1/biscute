@@ -112,15 +112,11 @@ sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.portfolio, .product__card, .event, .qualities__content, .footer`,{interval: 100})
 
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      console.log(entry)
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      }
-    });
-  });
-  
-  const hiddenElements = document.querySelectorAll(".hidden");
-  hiddenElements.forEach((el) => observer.observe(el));
+// Clear all the input values after the user submits the form
+const formToReset = document.getElementById('contactForm');
+formToReset.addEventListener('submit', (e) => {
+   setTimeout(function() { 
+    e.preventDefault();
+    formToReset.reset();
+   }, 1);
+});
