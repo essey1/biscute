@@ -362,6 +362,7 @@ input {
   position: relative;
   row-gap: 1rem;
   z-index: 2;
+  min-height: 750px;
 }
 
 .home__img {
