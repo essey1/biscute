@@ -62,7 +62,7 @@
     .home__container{
       align-items: center;
       text-align: start;
-      padding: 5rem 1rem 7rem 1rem;
+      padding: 7rem 1rem 7rem 1rem;
     }
     .home__data {
       margin-top: 1rem;
@@ -72,7 +72,7 @@
       order: 1;
     }
     .home__social{
-      top: 33%;
+      top: 36%;
       right: -.25rem;
     }
     .qualities__container{
@@ -226,7 +226,7 @@
   
   @media screen and (min-width: 1200px){
     .home__social{
-      right: -3rem;
+      right: 0;
       row-gap: 4.5rem;
     }
     .home__social-follow{
@@ -237,7 +237,7 @@
       right: -40%;
     }
     .home__social-link{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
   
     .about__container{
@@ -252,7 +252,7 @@
   /* For tall screens on mobiles y desktop*/
   @media screen and (min-height: 900px) {
     .home__container {
-        height: 700px;
+        height: 600px;
     }
   }
   
