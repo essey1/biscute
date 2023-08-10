@@ -90,7 +90,7 @@
     line-height: 1.2;
   }
   
-  .portfolio {
+  .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     max-width: 1000px;
@@ -99,71 +99,71 @@
   }
   
   // @media (max-width: 510px) {
-  //   .portfolio__hide {
+  //   .gallery__hide {
   //     display: none;
   //   }
   // }
   
-  .portfolio__items {
+  .gallery__items {
     background: var(--purple);
     overflow: hidden;
     font-size: 0px;
   }
   
-  .portfolio__img {
+  .gallery__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
   }
   
-  .portfolio__item:focus {
+  .gallery__item:focus {
     position: relative;
     z-index: 2;
   }
   
-  .portfolio__img:hover,
-  .portfolio__items:focus .portfolio__img {
+  .gallery__img:hover,
+  .gallery__items:focus .gallery__img {
     transform: scale(1.125, 1.125);
     opacity: .75;
   }
   
   @media (min-width: 767px) {
-    .portfolio__items {
+    .gallery__items {
       overflow: visible;
     }
   
-    .portfolio__img:hover,
-    .portfolio__items:focus .portfolio__img {
+    .gallery__img:hover,
+    .gallery__items:focus .gallery__img {
       transform: scale(1, 1);
       opacity: 1; 
     }
   
-    .portfolio__img1:hover {
+    .gallery__img1:hover {
       transform: translate(100%, 50%)
                  scale(3, 2);
     }
     
-    .portfolio__img2:hover {
+    .gallery__img2:hover {
       transform: translate(0%, 50%)
                  scale(3, 2);
     }
     
-    .portfolio__img3:hover {
+    .gallery__img3:hover {
       transform: translate(-100%, 50%)
                  scale(3, 2);
     }
     
-    .portfolio__img4:hover {
+    .gallery__img4:hover {
       transform: translate(100%, -50%)
                  scale(3, 2);
     }
     
-    .portfolio__img5:hover {
+    .gallery__img5:hover {
       transform: translate(0%, -50%)
                  scale(3, 2);
     }
     
-    .portfolio__img6:hover {
+    .gallery__img6:hover {
       transform: translate(-100%, -50%)
                  scale(3, 2);
     }

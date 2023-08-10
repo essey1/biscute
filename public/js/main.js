@@ -110,7 +110,7 @@ sr.reveal(`.home__img`, {delay: 150})
 sr.reveal(`.home__social`, {delay: 250})
 sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
-sr.reveal(`.portfolio, .product__card, .event, .qualities__content, .footer`,{interval: 100})
+sr.reveal(`.gallery, .product__card, .event, .qualities__content, .footer`,{interval: 100})
 
 // Clear all the input values after the user submits the form
 const formToReset = document.getElementById('contactForm');
