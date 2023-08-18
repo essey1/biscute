@@ -18,10 +18,6 @@
     margin: 0 1rem; 
   }
   
-  .product__contact-link {
-    color: var(--purple)
-  }
-  
   .product__card {
     position: relative;
   }
@@ -167,5 +163,9 @@
       transform: translate(-100%, -50%)
                  scale(3, 2);
     }
+  }
+
+  .product__contact-link {
+    color: var(--purple);
   }
   

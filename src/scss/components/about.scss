@@ -15,13 +15,13 @@
   
   /* ==== Layout ====*/
   
-  #about_us {
+  .about_us {
     background-color: var(--yellow);
     padding: 5em .5em 8em;
     text-align: justify;
   }
   
-  #partners {
+  .partners {
     background-color: var(--purple);
     color: var(--white-color);
     padding: 2em .5em 10em;
@@ -73,7 +73,7 @@
     max-width: 500px;
     margin: 0 auto;
     height: auto;
-    border-radius: 2%;
+    border-radius: 1%;
   }
   
   .main-text {
@@ -124,4 +124,8 @@
       max-width: 600px;
     }
   
+  }
+
+  .daily-mart {
+    color: var(--yellow);
   }
