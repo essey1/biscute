@@ -154,13 +154,9 @@
   }
   
   .copyright {
-    padding-block: 1rem;
-  }
-  
-  @media (min-width: 1001px) {
-    .copyright {
-      padding-bottom: 0;
-    }
+    padding-inline: .5rem;
+    padding-block: 1.5rem .5rem;
+    line-height: 1.75;
   }
   
   .fa-brands {
@@ -172,23 +168,10 @@
   }
   
   .designers {
-    font-size: 0.75rem;
-    margin: 0;
-    padding: 0 .5rem .25rem 0;
-    text-align: end;
-    opacity: 0.25;
-  }
-  
-  .designers a {
-    color: #3d789f;
+    color: rgb(0, 90, 180);
+    transition: all 250ms ease;
   }
   
   .designers:hover {
-    opacity: 1;
-  }
-  
-  @media (max-width: 1000px) {
-    .designers {
-      display: none;
-    }
+    opacity: .6;
   }

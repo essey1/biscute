@@ -1057,7 +1057,7 @@ input {
   color: var(--white-color);
   justify-self: center;
   margin-bottom: 1rem;
-  margin-top: 2em;
+  margin-top: 2.9rem;
 }
 
 .page__title-about {
@@ -1196,7 +1196,7 @@ img {
 @media screen and (max-width: 1000px) {
   .left {
     float: none;
-    position: relative !important;
+    position: relative;
     width: 100%;
     min-height: 150px;
   }
@@ -1206,7 +1206,7 @@ img {
   }
   .right {
     float: none;
-    position: relative !important;
+    position: relative;
     width: 100%;
     font-size: 100%;
   }
@@ -1377,14 +1377,11 @@ iframe {
 }
 
 .copyright {
-  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  padding-block: 1.5rem 0.5rem;
+  line-height: 1.75;
 }
 
-@media (min-width: 1001px) {
-  .copyright {
-    padding-bottom: 0;
-  }
-}
 .fa-brands {
   font-size: 1.25rem;
 }
@@ -1394,26 +1391,14 @@ iframe {
 }
 
 .designers {
-  font-size: 0.75rem;
-  margin: 0;
-  padding: 0 0.5rem 0.25rem 0;
-  text-align: end;
-  opacity: 0.25;
-}
-
-.designers a {
-  color: #3d789f;
+  color: rgb(0, 90, 180);
+  transition: all 250ms ease;
 }
 
 .designers:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
-@media (max-width: 1000px) {
-  .designers {
-    display: none;
-  }
-}
 /*=============== SCROLL UP ===============*/
 .scrollup {
   position: fixed;
