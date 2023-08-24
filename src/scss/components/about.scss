@@ -1,90 +1,91 @@
 /* ===================  ABOUT US PAGE ======================== */
 .main-grid {
-    display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
-    grid-column-gap: 1em;
-    max-width: 1000px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  grid-column-gap: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .main-grid {
+    grid-column-gap: .1em;
   }
-  
-  @media (max-width: 500px) {
-    .main-grid {
-      grid-column-gap: .1em;
-    }
-  }
-  
-  /* ==== Layout ====*/
-  
-  .about_us {
-    background-color: var(--yellow);
-    padding: 5em .5em 8em;
-    text-align: justify;
-  }
-  
-  .partners {
-    background-color: var(--purple);
-    color: var(--white-color);
-    padding: 2em .5em 10em;
-    text-align: justify;
-  }
-  
-  .section__subtitle-about,
-  .section__subtitle-partner {
-    text-align: center;
-    display: block;
-    font-weight: var(--font-medium);
-    margin-bottom: var(--mb-1);
-  }
-  
-  .section__subtitle-about {
-    color: var(--purple);
-    padding-top: 1rem;
-  }
-  
-  .section__subtitle-partner {
-    color: var(--yellow);
-    padding-top: 1rem;
-  }
-  
-  .head {
+}
+
+/* ==== Layout ====*/
+
+.about {
+  background-color: var(--yellow);
+  padding: 7.5em .5em;
+  text-align: justify;
+  position: relative;
+}
+
+.partners {
+  background-color: var(--purple);
+  color: var(--white-color);
+  padding: 1em .5em 10em;
+  text-align: justify;
+  position: relative;
+}
+
+.section__subtitle-about,
+.section__subtitle-partner {
+  text-align: center;
+  display: block;
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-2);
+}
+
+.section__subtitle-about {
+  color: var(--purple);
+  padding-top: 1rem;
+}
+
+.section__subtitle-partner {
+  color: var(--yellow);
+  padding-top: 1rem;
+}
+
+.head {
   grid-column: 2 / -2;
   text-align: center;
   margin-top: 3em;
   margin-bottom: 3em;
-  }
-  
-  .page__title-about,
-  .page__title-partner {
-    color: var(--white-color);
-    justify-self: center;
-    margin-bottom: 1rem;
-    margin-top: 2.9rem;
-  }
+}
 
-  .page__title-about {
-    color: var(--text-color)
-  }
-  
-  .main-image {
-    grid-column: 2 / -2;
-    object-fit: cover;
-    width: 100%;
-    display: block;
-    max-width: 500px;
-    margin: 0 auto;
-    height: auto;
-    border-radius: 1%;
-  }
-  
-  .main-text {
+.page__title-about,
+.page__title-partner {
+  color: var(--white-color);
+  justify-self: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.page__title-about {
+  color: var(--text-color)
+}
+
+.main-image {
   grid-column: 2 / -2;
-  margin-top: 3em;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 1%;
+}
+
+.main-text {
+  grid-column: 2 / -2;
   margin-bottom: 3em;
-  max-width: 550px;
+  max-width: 500px;
   margin-inline: auto;
-  }
-  
-  .section-title::after {
+}
+
+.section-title::after {
   content: "";
   display: block;
   width: 200px;
@@ -92,40 +93,38 @@
   margin-top: 1em;
   background: var(--blog-title-lines);
   margin-inline: auto;
-  }
-  
-  .sub {
+}
+
+.sub {
   margin-top: 3em;
-  }
-  
-  
-  @media (min-width: 600px) {
-    .main-grid {
-      grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(20px, 320px)) minmax(1em, 1fr);
-    }
-  
-    .head {
-      grid-column: 3 / -3;
-    }
-    
-    
-  }
-  
-  @media(min-width: 700px) {
-    .main-image {
-      grid-column: 3 / 2;
-      margin-top: 3.25rem;
-  
-    }
-    
-    .main-text {
-      grid-column: 3 / span 2;
-      margin-top: 0;
-      max-width: 600px;
-    }
-  
+}
+
+
+@media (min-width: 600px) {
+  .main-grid {
+    grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(20px, 320px)) minmax(1em, 1fr);
   }
 
-  .daily-mart {
-    color: var(--yellow);
+  .head {
+    grid-column: 3 / -3;
   }
+
+
+}
+
+@media(min-width: 700px) {
+  .main-image {
+    grid-column: 3 / 1;
+    margin-top: 2.3rem;  
+  }
+
+  .main-text {
+    grid-column: 3 / span 2;
+    margin-top: 0;
+    max-width: 600px;
+  }
+}
+
+.daily-mart {
+  color: var(--yellow);
+}

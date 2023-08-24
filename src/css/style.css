@@ -1015,17 +1015,19 @@ input {
   }
 }
 /* ==== Layout ====*/
-.about_us {
+.about {
   background-color: var(--yellow);
-  padding: 5em 0.5em 8em;
+  padding: 7.5em 0.5em;
   text-align: justify;
+  position: relative;
 }
 
 .partners {
   background-color: var(--purple);
   color: var(--white-color);
-  padding: 2em 0.5em 10em;
+  padding: 1em 0.5em 10em;
   text-align: justify;
+  position: relative;
 }
 
 .section__subtitle-about,
@@ -1033,7 +1035,7 @@ input {
   text-align: center;
   display: block;
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-2);
 }
 
 .section__subtitle-about {
@@ -1058,7 +1060,7 @@ input {
   color: var(--white-color);
   justify-self: center;
   margin-bottom: 1rem;
-  margin-top: 2.9rem;
+  margin-top: 2rem;
 }
 
 .page__title-about {
@@ -1078,9 +1080,8 @@ input {
 
 .main-text {
   grid-column: 2/-2;
-  margin-top: 3em;
   margin-bottom: 3em;
-  max-width: 550px;
+  max-width: 500px;
   margin-inline: auto;
 }
 
@@ -1108,8 +1109,8 @@ input {
 }
 @media (min-width: 700px) {
   .main-image {
-    grid-column: 3/2;
-    margin-top: 3.25rem;
+    grid-column: 3/1;
+    margin-top: 2.3rem;
   }
   .main-text {
     grid-column: 3/span 2;
@@ -1148,7 +1149,6 @@ input {
 
 .section__subtitle-left {
   margin-block: 2rem;
-  padding-inline: 1rem;
 }
 
 .right {
@@ -1160,7 +1160,6 @@ input {
 }
 .right p {
   line-height: 2;
-  margin-inline: 1rem;
 }
 
 @media (max-width: 650px) {
@@ -1605,9 +1604,9 @@ iframe {
     font-size: var(--normal-font-size);
   }
   .partners {
-    padding-block: 3em 10em;
+    padding-block: 4.5em 10em;
   }
-  .about_us {
+  .about {
     padding-bottom: 8em;
   }
   .footer__logo {
