@@ -55,7 +55,8 @@ function scrollActive(){
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive);
+window.addEventListener('DOMContentLoaded', scrollActive);
 
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')

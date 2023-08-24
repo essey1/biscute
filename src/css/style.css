@@ -1172,7 +1172,6 @@ input {
   .right p {
     max-width: 100%;
     margin-inline: auto;
-    text-align: justify;
   }
 }
 @media (min-width: 650px) {
