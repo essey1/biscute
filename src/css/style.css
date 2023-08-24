@@ -1035,7 +1035,7 @@ input {
   text-align: center;
   display: block;
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1-5);
 }
 
 .section__subtitle-about {
@@ -1060,7 +1060,7 @@ input {
   color: var(--white-color);
   justify-self: center;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .page__title-about {
@@ -1110,7 +1110,7 @@ input {
 @media (min-width: 700px) {
   .main-image {
     grid-column: 3/1;
-    margin-top: 2.3rem;
+    margin-top: 2.8rem;
   }
   .main-text {
     grid-column: 3/span 2;
@@ -1132,6 +1132,7 @@ input {
 .wrap {
   max-width: 1000px;
   margin-inline: auto;
+  padding-bottom: 5rem;
 }
 
 .left {
@@ -1141,10 +1142,7 @@ input {
 
 .section-title {
   text-align: center;
-}
-
-.section__subtitle-center {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .section__subtitle-left {

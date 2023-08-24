@@ -35,7 +35,7 @@
   text-align: center;
   display: block;
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1-5);
 }
 
 .section__subtitle-about {
@@ -60,7 +60,7 @@
   color: var(--white-color);
   justify-self: center;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .page__title-about {
@@ -115,7 +115,7 @@
 @media(min-width: 700px) {
   .main-image {
     grid-column: 3 / 1;
-    margin-top: 2.3rem;  
+    margin-top: 2.8rem;  
   }
 
   .main-text {
