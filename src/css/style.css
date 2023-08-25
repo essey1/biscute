@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem; /*56px*/
+  --header-height: 3.75rem; /*60px*/
   /*========== Colors ==========*/
   --purple: #992995;
   --nav-color: #f5f0f5;
@@ -258,7 +258,7 @@ input {
 .nav__logo-icon {
   font-size: 1.15rem;
   width: 60px;
-  margin: 0.25em 0.25em 0 0;
+  margin: 0.4em 0.25em 0 0;
   padding: 0;
   color: var(--purple);
 }
