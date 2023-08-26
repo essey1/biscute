@@ -177,12 +177,12 @@ iframe {
 }
 
 .announcements {
-  width: 42%;
+  width: 30%;
   background-color: transparent;
   color: var(--white-color);
   font-size: 0;
   position: fixed;
-  right: 0;
+  left: 0;
   bottom: 0;
   z-index: var(--z-fixed);
   transition: .4s; /*For animation dark mode*/
@@ -195,6 +195,6 @@ iframe {
 
 @media (min-width: 750px) {
   .announcements {
-    width: 25%;
+    width: 20%;
   }
 }
