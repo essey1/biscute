@@ -17,6 +17,25 @@
       height: auto;
     }
   }
+
+  .announcements {
+    width: 100%;
+    padding-top: 1.125rem;
+    background-color: var(--purple);
+    color: var(--yellow);
+    z-index: var(--z-fixed);
+    box-shadow: var(--bs);
+    p {
+      text-align: center;
+      padding: 1.75em 1em;
+    }
+  }
+
+@media (max-width: 760px) {
+    .announcements {
+      padding-top: 3.6rem;
+  }
+}
   
   .home__container{
     max-width: 1000px;
