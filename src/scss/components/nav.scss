@@ -1,7 +1,7 @@
 /*=============== HEADER ===============*/
 .header{
     width: 100%;
-    background-color: var(--purple);
+    background-color: var(--yellow);
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
   .nav__logo,
   .nav__toggle,
   .nav__close{
-    color: var(--nav-color);
+    color: var(--text-color);
   }
   
   .nav__logo{
@@ -87,7 +87,7 @@
   }
   
   .nav__link{
-    color: var(--nav-color);
+    color: var(--text-color);
     font-weight: var(--font-medium);
     transition: .3s;
   }
@@ -104,7 +104,7 @@
   /* Active link */
   .active-link{
     position: relative;
-    color: var(--yellow);
+    color: var(--purple);
   }
   
   .active-link::after{
@@ -114,6 +114,16 @@
     left: 0;
     width: 50%;
     height: 2px;
-    background-color: var(--yellow);
+    background-color: var(--purple);
   }
-  
+
+  .announcements {
+    width: 100%;
+    background-color: var(--purple);
+    color: var(--nav-color);
+    z-index: var(--z-fixed);
+    p {
+      text-align: center;
+      padding: 1.5em 1em;
+    }
+  }

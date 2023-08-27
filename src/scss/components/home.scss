@@ -22,7 +22,7 @@
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
-    padding: 5rem 1rem 6.5rem;
+    padding: 8rem 1rem 6.5rem;
     position: relative;
     row-gap: 1rem;
     z-index: 2;
@@ -60,7 +60,7 @@
   
   .home__social{
     position: absolute;
-    top: 9.75rem;
+    top: 12.75rem;
     right: 0;
     display: grid;
     justify-items: center;
@@ -69,7 +69,7 @@
   
   @media (max-width: 350px) {
     .home__social {
-      top: 9rem;
+      top: 12rem;
     }
   }
   

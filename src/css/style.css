@@ -86,10 +86,6 @@ body.dark-theme {
   column-gap: 1rem;
 }
 
-.scroll-header {
-  box-shadow: var(--bs);
-}
-
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -223,7 +219,7 @@ input {
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
-  background-color: var(--purple);
+  background-color: var(--yellow);
   position: fixed;
   top: 0;
   left: 0;
@@ -243,7 +239,7 @@ input {
 .nav__logo,
 .nav__toggle,
 .nav__close {
-  color: var(--nav-color);
+  color: var(--text-color);
 }
 
 .nav__logo {
@@ -306,7 +302,7 @@ input {
 }
 
 .nav__link {
-  color: var(--nav-color);
+  color: var(--text-color);
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
@@ -323,7 +319,7 @@ input {
 /* Active link */
 .active-link {
   position: relative;
-  color: var(--yellow);
+  color: var(--purple);
 }
 
 .active-link::after {
@@ -333,7 +329,18 @@ input {
   left: 0;
   width: 50%;
   height: 2px;
-  background-color: var(--yellow);
+  background-color: var(--purple);
+}
+
+.announcements {
+  width: 100%;
+  background-color: var(--purple);
+  color: var(--nav-color);
+  z-index: var(--z-fixed);
+}
+.announcements p {
+  text-align: center;
+  padding: 1.5em 1em;
 }
 
 /*=============== HOME ===============*/
@@ -358,7 +365,7 @@ input {
   max-width: 1000px;
   margin: 0 auto;
   align-items: center;
-  padding: 5rem 1rem 6.5rem;
+  padding: 8rem 1rem 6.5rem;
   position: relative;
   row-gap: 1rem;
   z-index: 2;
@@ -395,7 +402,7 @@ input {
 
 .home__social {
   position: absolute;
-  top: 9.75rem;
+  top: 12.75rem;
   right: 0;
   display: grid;
   justify-items: center;
@@ -404,7 +411,7 @@ input {
 
 @media (max-width: 350px) {
   .home__social {
-    top: 9rem;
+    top: 12rem;
   }
 }
 .home__social-follow {
@@ -1369,28 +1376,6 @@ iframe {
   opacity: 0.6;
 }
 
-.announcements {
-  width: 42%;
-  background-color: transparent;
-  color: var(--white-color);
-  font-size: 0;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: var(--z-fixed);
-  transition: 0.4s; /*For animation dark mode*/
-  isolation: isolate;
-}
-.announcements img {
-  box-shadow: var(--bs);
-  border-top-left-radius: 20%;
-}
-
-@media (min-width: 750px) {
-  .announcements {
-    width: 25%;
-  }
-}
 /*=============== SCROLL UP ===============*/
 .scrollup {
   position: fixed;
@@ -1489,7 +1474,7 @@ iframe {
   .home__container {
     align-items: center;
     text-align: start;
-    padding: 7rem 1rem 7rem 1rem;
+    padding: 6rem 1rem 7rem 1rem;
   }
   .home__data {
     margin-top: 1rem;
@@ -1499,7 +1484,7 @@ iframe {
     order: 1;
   }
   .home__social {
-    top: 36%;
+    top: 33%;
     right: -0.25rem;
   }
   .qualities__container {

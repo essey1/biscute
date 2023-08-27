@@ -175,26 +175,3 @@ iframe {
 .designers:hover {
   opacity: .6;
 }
-
-.announcements {
-  width: 30%;
-  background-color: transparent;
-  color: var(--white-color);
-  font-size: 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: var(--z-fixed);
-  transition: .4s; /*For animation dark mode*/
-  isolation: isolate;
-  img {
-    box-shadow: var(--bs);
-    border-top-left-radius: 20%;
-  }
-}
-
-@media (min-width: 750px) {
-  .announcements {
-    width: 20%;
-  }
-}
