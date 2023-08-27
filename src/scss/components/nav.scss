@@ -8,6 +8,7 @@
     z-index: var(--z-fixed);
     transition: .4s; /*For animation dark mode*/
     isolation: isolate;
+    box-shadow: var(--bsl);
   }
   
   /*=============== NAV ===============*/
@@ -119,11 +120,19 @@
 
   .announcements {
     width: 100%;
+    padding-top: 1.125rem;
     background-color: var(--purple);
-    color: var(--nav-color);
+    color: var(--yellow);
     z-index: var(--z-fixed);
+    box-shadow: var(--bs);
     p {
       text-align: center;
-      padding: 1.5em 1em;
+      padding: 1.75em 1em;
     }
   }
+
+@media (max-width: 760px) {
+    .announcements {
+      padding-top: 3.6rem;
+  }
+}

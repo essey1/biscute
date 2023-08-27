@@ -62,7 +62,7 @@
     .home__container{
       align-items: center;
       text-align: start;
-      padding: 6rem 1rem 7rem 1rem;
+      padding: 3.5rem 1rem 6rem 1rem;
     }
     .home__data {
       margin-top: 1rem;
@@ -72,7 +72,7 @@
       order: 1;
     }
     .home__social{
-      top: 33%;
+      top: 29%;
       right: -.25rem;
     }
     .qualities__container{
@@ -109,6 +109,12 @@
       margin-left: .5rem;
     }
   
+  }
+
+  @media (min-width: 1000px) {
+    .home__data {
+      margin-bottom: 2rem;
+    }
   }
   
   @media screen and (min-width: 801px){
@@ -152,6 +158,13 @@
     .section__title,
     .section__title-center{
       font-size: var(--h1-font-size);
+    }
+
+    .home__container{
+      padding: 1.5rem 1rem 7rem 1rem;
+    }
+    .home__social{
+      top: 24%;
     }
 
     .event {

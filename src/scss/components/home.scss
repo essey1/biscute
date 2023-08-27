@@ -5,7 +5,7 @@
     background-color: var(--yellow);
   }
   
-  @media (min-height: 575px) and (min-width: 761px) {
+  @media (min-height: 650px) and (min-width: 761px) {
     .home {
       height: 98vh;
       height: 98svh;
@@ -22,9 +22,9 @@
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
-    padding: 8rem 1rem 6.5rem;
+    padding: 0 1rem 6.5rem;
     position: relative;
-    row-gap: 1rem;
+    row-gap: 0rem;
     z-index: 2;
   }
 
@@ -35,14 +35,15 @@
   }
 
   @media (max-width: 760px) {
-    .home__container {
-      min-height: 750px;
-    }
     .home__data {
-      margin-left: 0rem;
+      margin-left: .5rem;
+      margin-bottom: 1rem;
     }
     .home__description {
       max-width: 400px;
+    }
+    .home__img {
+      padding-top: .5rem;
     }
   }
   
@@ -60,7 +61,7 @@
   
   .home__social{
     position: absolute;
-    top: 12.75rem;
+    top: 4.25rem;
     right: 0;
     display: grid;
     justify-items: center;
@@ -69,7 +70,7 @@
   
   @media (max-width: 350px) {
     .home__social {
-      top: 12rem;
+      top: 3.5rem;
     }
   }
   
