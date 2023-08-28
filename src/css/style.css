@@ -1557,6 +1557,8 @@ iframe {
   }
   .nav__link {
     margin-inline: 1.25rem;
+    display: inline-flex;
+    column-gap: 0.25rem;
   }
   .nav__menu {
     margin-left: auto;
