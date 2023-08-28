@@ -13,7 +13,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 3rem;
+    height: 3.25rem;
     transform: rotate(180deg);
   }
 
@@ -41,7 +41,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 3rem;
+    height: 3.25rem;
     pointer-events: visible;
   }
   
@@ -57,12 +57,12 @@
   @media (min-width: 400px) {
     .top-wave svg,
     .top-wave1 svg {
-      height: 4rem;
+      height: 5rem;
     }
   
     .bottom-wave svg,
     .bottom-wave1 svg {
-      height: 4rem;
+      height: 5rem;
     }
   }
   

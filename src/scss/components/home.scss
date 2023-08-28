@@ -41,10 +41,16 @@
     max-width: 1000px;
     margin: 0 auto;
     align-items: center;
-    padding: 0 1rem 6.5rem;
+    padding: 0 1rem 5.5rem;
     position: relative;
     row-gap: 0rem;
     z-index: 2;
+  }
+
+  @media (max-width: 399px) {
+    .home__container {
+      padding: 0 1rem 3.5rem;
+    }
   }
 
   .home__img{
