@@ -1534,7 +1534,7 @@ iframe {
 }
 @media (min-width: 1000px) {
   .home__data {
-    margin-bottom: 2rem;
+    margin-bottom: 0.45rem;
   }
 }
 @media screen and (min-width: 801px) {
