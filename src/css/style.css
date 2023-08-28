@@ -1041,7 +1041,7 @@ input {
 /* ==== Layout ====*/
 .about {
   background-color: var(--yellow);
-  padding: 7.5em 0.5em;
+  padding: 5.5em 0.5em;
   text-align: justify;
   position: relative;
 }
@@ -1049,7 +1049,7 @@ input {
 .partners {
   background-color: var(--purple);
   color: var(--white-color);
-  padding: 1em 0.5em 10em;
+  padding: 2em 0.5em 10em;
   text-align: justify;
   position: relative;
 }
@@ -1560,6 +1560,10 @@ iframe {
   }
   .nav__menu {
     margin-left: auto;
+  }
+  .event1,
+  .event2 {
+    padding: 6rem 1.5rem;
   }
 }
 /* For large devices */
