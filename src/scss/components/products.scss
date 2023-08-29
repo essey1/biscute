@@ -1,13 +1,16 @@
 /*=============== PRODUCTS ===============*/
 .product {
     background-color: var(--white-color);
-    margin: 0 0 5rem 0;
+    margin: 0;
     position: relative;
   }
   
   .product__description {
     text-align: center;
-    margin: 3rem 2rem 1rem;
+    margin: 1rem 2rem 1rem;
+    max-width: 600px;
+    margin-inline: auto;
+    padding-inline: 1rem;
   }
   
   .product__container {
@@ -163,6 +166,12 @@
       transform: translate(-50%, -50%)
                  scale(2, 2);
     }
+  }
+
+  .product__subtitle {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-5);
+    text-align: center;
   }
 
   .product__contact-link {

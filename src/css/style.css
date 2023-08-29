@@ -175,7 +175,7 @@ input {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 5.5rem 0 1.5rem;
+  padding: 4rem 0 3rem;
   position: relative;
 }
 
@@ -382,7 +382,7 @@ input {
   z-index: 2;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 499.9px) {
   .home__container {
     padding: 0 1rem 3.5rem;
   }
@@ -546,13 +546,16 @@ input {
 /*=============== PRODUCTS ===============*/
 .product {
   background-color: var(--white-color);
-  margin: 0 0 5rem 0;
+  margin: 0;
   position: relative;
 }
 
 .product__description {
   text-align: center;
-  margin: 3rem 2rem 1rem;
+  margin: 1rem 2rem 1rem;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 .product__container {
@@ -687,6 +690,12 @@ input {
     transform: translate(-50%, -50%) scale(2, 2);
   }
 }
+.product__subtitle {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-5);
+  text-align: center;
+}
+
 .product__contact-link {
   color: var(--purple);
 }
@@ -695,7 +704,7 @@ input {
 .qualities {
   background-color: var(--yellow);
   margin: 0;
-  padding: 7rem 0 12rem !important;
+  padding: 4rem 0 8rem;
   position: relative;
 }
 
@@ -736,7 +745,7 @@ input {
 .event {
   background-color: var(--white-color);
   position: relative;
-  padding: 5rem 0 8rem;
+  padding: 3rem 0 7rem;
   text-align: center;
 }
 
@@ -885,7 +894,7 @@ input {
 .contact {
   max-width: 100%;
   margin: 0;
-  padding: 10rem 1rem 10rem;
+  padding: 7rem 1rem;
   background-color: var(--yellow);
   position: relative;
 }
@@ -1469,7 +1478,7 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
   }
   .product__description {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
   .product__container {
     grid-template-columns: repeat(2, 170px);
@@ -1536,13 +1545,13 @@ iframe {
   .home__data {
     margin-bottom: 0.45rem;
   }
+  .event {
+    padding: 3rem 0 9rem;
+  }
 }
 @media screen and (min-width: 801px) {
   body {
     margin: 0;
-  }
-  .section {
-    padding-top: 8rem;
   }
   .nav__toggle,
   .nav__close {
@@ -1574,9 +1583,6 @@ iframe {
     margin-left: auto;
     margin-right: auto;
   }
-  .section {
-    padding: 7rem 0 1rem;
-  }
   .section__title,
   .section__title-center {
     font-size: var(--h1-font-size);
@@ -1587,11 +1593,8 @@ iframe {
   .home__social {
     top: 24%;
   }
-  .event {
-    padding: 5rem 0 8rem;
-  }
   .contact {
-    padding: 10rem 1rem 12rem;
+    padding: 8rem 1rem;
   }
   .bd-container {
     margin-left: auto;
@@ -1621,11 +1624,8 @@ iframe {
   .steps__card-title {
     font-size: var(--normal-font-size);
   }
-  .product__description {
-    padding: 0 10rem;
-  }
   .product__container {
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0 3rem 0;
     grid-template-columns: repeat(3, 185px);
     gap: 3rem 6rem;
   }
@@ -1646,6 +1646,9 @@ iframe {
   }
   .about {
     padding-bottom: 8em;
+  }
+  .qualities {
+    padding: 4rem 0 10rem;
   }
   .footer__logo {
     font-size: var(--h3-font-size);
@@ -1674,12 +1677,6 @@ iframe {
   }
   .scrollup {
     right: 3rem;
-  }
-}
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 900px) {
-  .home__container {
-    height: 600px;
   }
 }
 .bottom-wave,
@@ -1738,7 +1735,7 @@ iframe {
   fill: var(--white-color);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .top-wave svg,
   .top-wave1 svg {
     height: 5rem;

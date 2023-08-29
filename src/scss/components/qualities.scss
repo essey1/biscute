@@ -2,7 +2,7 @@
 .qualities {
     background-color: var(--yellow);
     margin: 0;
-    padding: 7rem 0 12rem !important;
+    padding: 4rem 0 8rem;
     position: relative;
   }
   
@@ -12,7 +12,7 @@
     row-gap: 2.5rem;
     grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
   }
-  
+
   @media (min-width: 900px) {
     .qualities__container{
       max-width: 1000px;
