@@ -170,8 +170,14 @@ iframe {
 .designers {
   color: rgb(0, 90, 180);
   transition: all 250ms ease;
+  display: inline-flex;
+  align-items: stretch;
 }
 
 .designers:hover {
   opacity: .6;
+}
+
+.designers__icon {
+  margin-left: .25em;
 }
