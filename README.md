@@ -3,7 +3,13 @@ A repository for the development of the Biscuté website which is a cookie compa
 
 Link: [Biscuté](https:essey1.github.io/biscute)
 
-This website was built using:
+This website's features:
+- Responsive design that has a joyful and delicious feel.
+- On scroll animations.
+- Flip card effect for the product items.
+- wave-like section dividers and more.
+
+Tools used:
 - HTML for the strucure
 - Scss for the styling
 - JavaScript for the interactivity
