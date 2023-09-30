@@ -11,10 +11,10 @@ This website was built using:
 
 
 | Desktop Version  | Mobile Version |
-| -------------    | ------------- |
-| ![biscute](https://github.com/essey1/biscute/assets/111381905/909ca0a6-b5b5-41b8-99a7-e71f92a9b4d7) | ![biscute-mobile (https://github.com/essey1/biscute/assets/111381905/ec00f96e-dece-48cd-bbaa-35a08f4d7bdc) |
+| ------------- | -------------  |
+| ![biscute1](https://github.com/essey1/biscute/assets/111381905/09f5b858-e87a-4f4b-a860-e5b885c00853) | ![biscute-mobile (https://github.com/essey1/biscute/assets/111381905/ec00f96e-dece-48cd-bbaa-35a08f4d7bdc) |
 
-| First Header  | Second Header |
+| Desktop version  | Mobile version |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| ![biscute](https://github.com/essey1/biscute/assets/111381905/909ca0a6-b5b5-41b8-99a7-e71f92a9b4d7) | ![biscute1-mobile](https://github.com/essey1/biscute/assets/111381905/331d1608-1aa5-4624-be78-5847cfcddcb9) |
 
