@@ -7,7 +7,7 @@ This website's features:
 - Responsive design that has a joyful and delicious feel.
 - On scroll animations.
 - Flip card effect for the product items.
-- wave-like section dividers and more.
+- Alternative color theme and more.
 
 Tools used:
 - HTML for the strucure
