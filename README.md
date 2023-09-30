@@ -1,1 +1,8 @@
-# biscute
+# Biscuté
+A repository for the development of the Biscuté website which is a cookie company located in Addis Ababa, Ethiopia.
+
+This website was built using:
+- HTML for the strucure
+- Scss for the styling
+- JavaScript for the interactivity
+- Postcss for minifying the css file and improving cross broweser compatibility.
