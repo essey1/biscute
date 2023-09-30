@@ -10,7 +10,11 @@ This website was built using:
 - PostCSS for minifying the css file and improving cross broweser compatibility.
 
 
-![biscute](https://github.com/essey1/biscute/assets/111381905/6d1aa209-f456-4f09-b767-563ba4f7f45d) ![biscute1](https://github.com/essey1/biscute/assets/111381905/e9f1b9e6-41e1-4650-a157-1abdae3b1a0c)
-![biscute](https://github.com/essey1/biscute/assets/111381905/65b800bb-34db-4080-b093-a5dc9ebbc9e3)
+| Desktop Version  | Mobile Version |
+| -------------    | ------------- |
+| ![biscute](https://github.com/essey1/biscute/assets/111381905/909ca0a6-b5b5-41b8-99a7-e71f92a9b4d7) | ![biscute-mobile (https://github.com/essey1/biscute/assets/111381905/ec00f96e-dece-48cd-bbaa-35a08f4d7bdc) |
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
 
