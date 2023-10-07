@@ -5,6 +5,7 @@ Link: [Biscuté](https:essey1.github.io/biscute)
 
 This website's features:
 - Responsive design that has a joyful and delicious feel.
+- cross-browser compatability.
 - On scroll animations.
 - Flip card effect for the product items.
 - Alternative color theme and more.
