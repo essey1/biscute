@@ -44,7 +44,7 @@
     padding: 0 1rem 5.5rem;
     position: relative;
     row-gap: 0rem;
-    z-index: 2;
+    z-index: 3;
   }
 
   @media (max-width: 499.9px) {
@@ -91,6 +91,7 @@
     display: grid;
     justify-items: center;
     row-gap: 3.75rem;
+    z-index: 4;
   }
   
   @media (max-width: 350px) {
