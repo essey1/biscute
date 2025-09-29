@@ -1,7 +1,7 @@
 # Biscuté
 A repository for the development of the Biscuté website which is a cookie company located in Addis Ababa, Ethiopia.
 
-Link: [Biscuté](https:essey1.github.io/biscute)
+Link: [Biscuté](https://biscute.netlify.app/)
 
 This website's features:
 - Responsive design that has a joyful and delicious feel.
